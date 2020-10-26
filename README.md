@@ -6,8 +6,9 @@
 - 分支名统一填写“master”
 - 将之前的Token黏贴在这里
 - 存储的路径：可以写为`img/`，图片上传后就会存入`ouidea/picbed`的`img/`文件夹里
-- 自定义域名的作用是在上传图片后成功后，PicGo会将“自定义域名+上传的图片名”生成的访问链接，放到剪切板上https://raw.githubusercontent.com/用户名/RepositoryName/分支名，自定义域名需要按照这样去填写
+- 自定义域名的作用是在上传图片后成功后，PicGo会根据“自定义域名+上传的图片名”生成访问链接，设置格式为
+`https://raw.githubusercontent.com/用户名/RepositoryName/分支名`
 
 **elivr CDN 全球加速**
 简单说就是替换上一步的自定义域名
-将链接换为 https://cdn.jsdelivr.net/gh/{user}/{repo}/图片路径
+将链接换为 `https://cdn.jsdelivr.net/gh/{user}/{repo}/图片路径`
