@@ -1,7 +1,7 @@
 # picbed
 基于GitHub+JsDelivr+PicGo的加速图床
 
-**cGo 上 GitHub 图床配置：**
+**PicGo 上 GitHub 图床配置：**
 - 设定仓库名的时候，是按照“账户名/仓库名的格式填写”
 - 分支名统一填写“master”
 - 将之前的Token黏贴在这里
